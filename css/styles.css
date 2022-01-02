@@ -81,6 +81,8 @@ body {
 }
 
 .menu-nav{
+  display: flex;
+  flex-wrap: nowrap;
   background-color: #fff;
   height: 50px;
   line-height: 50px;
