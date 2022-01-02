@@ -11,6 +11,34 @@ body {
   align-items: center;
 }
 
+/* MENU-BLOCK  */
+.menu-block{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-nav-link{
+  display: inline-block;
+  margin-right: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu-nav{
+  transition: 0.5s;
+  transform-origin: right center;
+  transform: scaleX(0) translateX(20%);
+  opacity: 0;
+}
+
+.menu-nav-active{
+  transform: scaleX(1) translateX(0%);
+  opacity: 1;
+}
+
+
+/* MENU-BTN  */
 .menu-btn{
   display: block;
   width: 50px;
